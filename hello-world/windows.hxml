@@ -1,0 +1,15 @@
+--class-path src
+
+--define analyzer-optimize
+--define HXCPP_CHECK_POINTER
+--define HXCPP_STACK_LINE
+
+--library lunar-engine
+
+--main Main
+--cpp export/cpp
+
+--cmd Xcopy assets\ bin\cpp\assets\ /E /H /C /I /Y
+--cmd cd export/cpp
+--cmd Main.exe
+--cmd cd ../../
