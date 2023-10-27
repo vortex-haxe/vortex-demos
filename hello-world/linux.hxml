@@ -7,8 +7,8 @@
 --library lunar-engine
 
 --main Main
---cpp export/cpp
+--cpp bin/cpp
 
---cmd cd export/cpp
+--cmd cd bin/cpp
 --cmd ./Main
 --cmd cd ../../
