@@ -4,9 +4,6 @@
 --define HXCPP_CHECK_POINTER
 --define HXCPP_STACK_LINE
 
-# required to compile correctly
---define HXCPP_M64
-
 --class-path src
 --main Main
 --cpp bin/cpp
