@@ -7,8 +7,8 @@ import vortex.nodes.Tween;
 import vortex.nodes.Timer;
 import vortex.nodes.display.Sprite;
 
-import vortex.resources.Texture;
 import vortex.resources.helpers.AtlasHelper;
+import vortex.servers.ResourceServer;
 
 import vortex.utils.engine.Color;
 import vortex.utils.engine.Ease;
@@ -19,7 +19,7 @@ class MyScene extends Node {
 	override function ready() {
 		spr = new Sprite();
 		spr.position = Engine.gameSize / 2;
-		spr.texture = Texture.loadFromFile("assets/vortex_logo.png");
+		spr.texture = ResourceServer.loadImage("assets/vortex_logo.png");
 		addChild(spr);
 	}
 
