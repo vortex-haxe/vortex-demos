@@ -3,15 +3,9 @@ package;
 import vortex.backend.Engine;
 
 import vortex.nodes.Node;
-import vortex.nodes.Tween;
-import vortex.nodes.Timer;
 import vortex.nodes.display.Sprite;
 
-import vortex.resources.helpers.AtlasHelper;
 import vortex.servers.ResourceServer;
-
-import vortex.utils.engine.Color;
-import vortex.utils.engine.Ease;
 
 class MyScene extends Node {
 	private var spr:Sprite;
