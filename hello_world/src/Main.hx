@@ -1,11 +1,20 @@
 package;
 
-import vortex.backend.Application;
-import vortex.backend.Engine;
+import canvas.app.Application;
+import canvas.display.FPS;
+
+import vortex.GameContext;
 
 class Main extends Application {
 	public function new() {
 		super();
-		Engine.currentScene = new MyScene();
+		addChild(new GameContext({
+			width: 640,
+			height: 480,
+			updateFramerate: 120,
+			drawFramerate: 120,
+			initialState: PlayState.new
+		}));
+		addChild(new FPS("assets/fonts/arial.ttf", 10, 3));
 	}
 }
