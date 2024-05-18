@@ -13,7 +13,7 @@ class Main extends Application {
 			height: 480,
 			updateFramerate: 120,
 			drawFramerate: 120,
-			initialState: PlayState.new
+			initialState: MyState.new
 		}));
 		addChild(new FPS("assets/fonts/arial.ttf", 10, 3));
 	}

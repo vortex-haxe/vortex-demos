@@ -3,7 +3,7 @@ package;
 import vortex.State;
 import vortex.display.Sprite;
 
-class PlayState extends State {
+class MyState extends State {
     var spr:Sprite;
 
     override function ready() {

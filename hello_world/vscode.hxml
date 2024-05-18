@@ -1,3 +1,6 @@
+# This file is used to give VSCode proper autocompletion
+# and highlighting for working with Vortex projects.
+# If you are not using VSCode, feel free to delete this file!
 --library vortex
 --class-path src
 --main Main
