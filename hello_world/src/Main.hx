@@ -15,6 +15,6 @@ class Main extends Application {
 			drawFramerate: 120,
 			initialState: MyState.new
 		}));
-		addChild(new FPS("assets/fonts/arial.ttf", 10, 3));
+		addChild(new FPS("assets/fonts/JetBrainsMono-Bold.ttf", 10, 3));
 	}
 }
